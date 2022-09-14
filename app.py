@@ -11,7 +11,7 @@ st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout
 
 def get_data_from_excel():
     df = pd.read_excel(
-        io="https://docs.google.com/spreadsheets/d/1V90QQFRHDGkHJiuFxjekip3Ceq9a4i1g/edit?usp=sharing&ouid=110290764189639394661&rtpof=true&sd=true",
+        io="https://github.com/ellam1/Streamlit/blob/main/supermarkt_sales.xlsx",
         engine="openpyxl",
         sheet_name="Sales",
         skiprows=3,
